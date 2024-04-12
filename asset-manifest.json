@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/TRAVHOOD-App/static/css/main.755c56bd.css",
-    "main.js": "/TRAVHOOD-App/static/js/main.0675c87c.js",
-    "index.html": "/TRAVHOOD-App/index.html",
-    "main.755c56bd.css.map": "/TRAVHOOD-App/static/css/main.755c56bd.css.map",
-    "main.0675c87c.js.map": "/TRAVHOOD-App/static/js/main.0675c87c.js.map"
+    "main.css": "/TRAVHOOD/static/css/main.755c56bd.css",
+    "main.js": "/TRAVHOOD/static/js/main.0675c87c.js",
+    "index.html": "/TRAVHOOD/index.html",
+    "main.755c56bd.css.map": "/TRAVHOOD/static/css/main.755c56bd.css.map",
+    "main.0675c87c.js.map": "/TRAVHOOD/static/js/main.0675c87c.js.map"
   },
   "entrypoints": [
     "static/css/main.755c56bd.css",
