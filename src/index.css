@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+body{
+    background-color: #DBE2EF;
+    font-family: sans-serif;
+  }
+  
+  :root {
+    color-scheme: dark;
+  }
+  
+  .navbar{
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    width: 100vw;
+    background-color: #112D4E;
+  }
+  
+  .navbar a{
+    color: white;
+  }
+  
+  .navbar a:hover{
+    color: rgb(197, 184, 184);
+    font-weight: 500;
+  }
+  
+  .Search-box{
+    position: relative;
+    right: 0%;
+    width: 30%;
+  }
+  
+  .search-type{
+    border-radius: 6px;
+  }
+  
+  .btn{
+    border-radius: 10px;
+    color: white;
+    background-color: #3F72AF;
+  }
+  
+  .btn:hover{
+    color: white;
+    background-color: #3876c0;
+    font-weight: 400;
+  }
+  
+  .Content{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://d3hne3c382ip58.cloudfront.net/files/uploads/bookmundi/resized/cms/things-to-do-udaipur-fateh-sagar-lake-1543302889-735X412.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+  }
+  
+  .Imagebox{
+    width: 46%;
+    margin-left: 60px;
+    
+  }
+  
+  .Midimg{
+    filter: drop-shadow(8px 8px 10px black);
+    width: 88%;
+    border-radius: 8%;
+  }   
+  
+  
+  .TextBox{
+    width: 44%;
+    margin-right: 60px;
+    word-break: break-all;
+    font-weight: 600;
+    color: white;
+    z-index: 1;
+    height: 49vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  
+  .box{
+    flex-wrap: wrap;
+    position: relative;
+    top: 60%;
+  }
+  
+  .TextBox a{
+    color: #1e68c3;
+    text-decoration: none;
+  }
+  
+  
+  .guideBox{
+    flex-wrap: wrap;
+    padding-top : 6%;
+    height: 100vh ;
+    overflow-y: scroll;
+  }
+  
+  .card{
+    border-radius: 8%;
+    background-color: #F9F7F7;
+  }
+  
+  .card img{
+    border-radius: 8% 8% 0 0 ;
+  }
+  
+  .checked {
+    color: orange;
+  }
